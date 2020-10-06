@@ -1,0 +1,18 @@
+---------------------To Open Bowsers In Ruby ---------------
+
+IMPORT :
+require 'watir'
+require 'selenium-webdriver'
+
+1. We need to set path of the driver installed using selenium's 'driver path' method
+Rem : Selenium in wrapped in Watir Libraries
+
+Syntax(learn by heart):
+
+*> SET-PATH = Selenium::WebDriver::Chrome/Firefox.driver_path="give_path"
+
+
+2. Create the object of the 'Browser' class
+
+*> obj = Watir::Browser.new (:chrome/firefox)
+
