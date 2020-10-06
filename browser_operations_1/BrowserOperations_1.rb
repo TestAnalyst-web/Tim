@@ -24,6 +24,9 @@ puts driver.text
 #2 display Current URL
 puts "The current URL is : " + driver.url
 
+puts "Driver Is Faster - TIM"
+#this is a file - TIM
+# With only this commets
 
 #getting page title
 driver.goto "https://www.facebook.com"
